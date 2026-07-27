@@ -48,19 +48,19 @@
     <!-- CANZONE 1 -->
     <div class="song">
       <span class="song-title">1. Titolo Prima Canzone</span>
-      <audio controls src="canzone1.mp3"></audio>
+      <audio controls src="03NewYorkCityCops.mp3"></audio>
     </div>
 
     <!-- CANZONE 2 -->
     <div class="song">
       <span class="song-title">2. Titolo Seconda Canzone</span>
-      <audio controls src="canzone2.mp3"></audio>
+      <audio controls src="02HardtoExplain.mp3"></audio>
     </div>
 
     <!-- CANZONE 3 -->
     <div class="song">
       <span class="song-title">3. Titolo Terza Canzone</span>
-      <audio controls src="canzone3.mp3"></audio>
+      <audio controls src="01LastNite.mp3"></audio>
     </div>
   </div>
 
