@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Nostra Playlist 🎵</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: #fdfbf7;
+      color: #333;
+    }
+    .card {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 16px;
+      max-width: 400px;
+      margin: 20px auto;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+    h1 { font-size: 22px; color: #4a4a4a; margin-bottom: 5px; }
+    p { font-size: 14px; color: #777; margin-bottom: 25px; }
+    .song {
+      margin-bottom: 20px;
+      text-align: left;
+      background: #f9f9f9;
+      padding: 12px;
+      border-radius: 10px;
+    }
+    .song-title {
+      font-weight: bold;
+      font-size: 15px;
+      display: block;
+      margin-bottom: 6px;
+      color: #2c3e50;
+    }
+    audio { width: 100%; height: 36px; }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Matilde e Marco, 12 Settembre 2026 ❤️</h1>
+    <p>Alcune note per ricordare questo giorno</p>
+
+    <!-- CANZONE 1 -->
+    <div class="song">
+      <span class="song-title">1. Titolo Prima Canzone</span>
+      <audio controls src="canzone1.mp3"></audio>
+    </div>
+
+    <!-- CANZONE 2 -->
+    <div class="song">
+      <span class="song-title">2. Titolo Seconda Canzone</span>
+      <audio controls src="canzone2.mp3"></audio>
+    </div>
+
+    <!-- CANZONE 3 -->
+    <div class="song">
+      <span class="song-title">3. Titolo Terza Canzone</span>
+      <audio controls src="canzone3.mp3"></audio>
+    </div>
+  </div>
+
+</body>
+</html>
